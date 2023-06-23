@@ -14,7 +14,7 @@ if(isset($message)){
 
    <section class="flex">
 
-      <a style="text-decoration: none;" href="home" class="logo"><img style="width:220px; height:40px;" src="images/logo-web.png" alt=""></a>
+      <a style="text-decoration: none;" href="home" class="logo"><img style="width:195px; height:40px;" src="images/logo-web.png" alt=""></a>
 
       <nav class="navbar">
          <a style="text-decoration: none" href="home">Home</a>
