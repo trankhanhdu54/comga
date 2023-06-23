@@ -119,8 +119,8 @@ if(isset($message)){
       </div>
 
       <div>
-        <input class="button" type="submit" name="submit" value="Đăng nhập ngay">
-        <p>Bạn đã có tài khoản? <a style="text-decoration: none;" href="log.php">Đăng ký ngay</a></p>
+        <input class="button" type="submit" name="submit" value="Đăng ký ngay">
+        <p>Bạn đã có tài khoản? <a style="text-decoration: none;" href="log.php">Đăng nhập ngay</a></p>
       </div>
 
     </form>
