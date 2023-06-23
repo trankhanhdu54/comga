@@ -1,0 +1,30 @@
+RewriteEngine On
+Options All -Indexes
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+ErrorDocument 404 /food/error
+
+RewriteRule ^error$ 404.php [L]
+RewriteRule ^home$ index.php [L]
+RewriteRule ^dangnhap$ log.php [L]
+RewriteRule ^dangky$ dangky.php [L]
+RewriteRule ^menu$ menu.php [L]
+RewriteRule ^thanhtoan$ checkout.php [L]
+RewriteRule ^about$ about.php [L]
+RewriteRule ^danhmuc$ category.php [L]
+RewriteRule ^giohang$ cart.php [L]
+RewriteRule ^lienhe$ contact.php [L]
+RewriteRule ^orders$ orders.php [L]
+RewriteRule ^loaisanpham$ loaisanpham.php [L]
+RewriteRule ^trangcanhan$ profile.php [L]
+RewriteRule ^xemchitiet$ quick_view.php [L]
+RewriteRule ^timkiem$ search.php [L]
+RewriteRule ^capnhatdiachi$ update_address.php [L]
+RewriteRule ^capnhatprofile$ update_profile.php [L]
+RewriteRule ^thoat$ components/user_logout.php [L]
+
+
+
